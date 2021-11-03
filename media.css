@@ -1,0 +1,46 @@
+@media screen and (max-width: 1440px){
+    .header__main_inner{
+        padding: 200px 0;
+    }
+}
+@media screen and (max-width: 320px){
+    .header{
+        height: 800px;
+    }
+    .header__top{
+        padding-top: 10px;
+    }
+    .navbar-brand img{
+        width: 40px;
+        height: 30px;
+    }
+    .header__inner{
+        display: none;
+    }
+    .navbar-light .navbar-toggler-icon{
+        background-image: url(images/burger.png);
+    }
+    .header__main_inner h1{
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .header__main_inner h1 span{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .header__main_inner h3{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .header__main_inner h3::before, .header__main_inner h3::after{
+        display: none;
+    }
+    .benefits__item h4{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .benefits__item p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

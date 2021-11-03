@@ -57,7 +57,7 @@
     border-left: 1px solid  #FFFFFF;
 }
 .header__main_inner{
-    padding-top: 200px;
+    padding: 100px 0;
 }
 .header__main_inner h1{
     font-family: 'Tinos', sans-serif;
@@ -90,11 +90,11 @@
 }
 .header__main_inner h3::before{
     top: 12px;
-    left: 160px;
+    left: 120px;
 }
 .header__main_inner h3::after{
     bottom: 11px;
-    right: 161px;
+    right: 120px;
 }
 .main__btn{
     text-align: center;
